@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "name": "typescript-with-parcel",
+  "description": "typescript-with-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devionb/typescript-with-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devionb/typescript-with-parcel/issues"
+  },
+  "homepage": "https://github.com/devionb/typescript-with-parcel#readme"
+}
