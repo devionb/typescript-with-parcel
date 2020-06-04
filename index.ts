@@ -14,7 +14,7 @@ enum Job {
     WebDev
 }
 const job: Job = Job.student;
-
+// any can be used to accept any param type
 const phone: any = "iphone";
 const tablet: any = 1;
 
@@ -43,3 +43,9 @@ const sayWord = (word = 'hello', ...otherstuff: string[]): string => {
 };
 
 sayWord('Dev', 'Vin');
+
+//implicit types
+let newName = 'Dev';
+newName = 'Vin';
+//newName = 10; - typescript can tell the differnece between string an int.
+// ^ gives you an error because newName is a strong not an int
