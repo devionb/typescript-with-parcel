@@ -18,3 +18,28 @@ const job: Job = Job.student;
 const phone: any = "iphone";
 const tablet: any = 1;
 
+// functions in typescript
+// ? for optional param 
+
+// const sayWord = (word?: string): string => {
+//     console.log(word || 'hello ');
+//     return word || 'hello';
+// };
+
+// sayWord();
+
+// //defualt params
+// const sayWord = (word = 'hello', ...otherstuff): string => {
+//     console.log(otherstuff);
+//     return word;
+// };
+
+// sayWord('Dev', 'Vin');
+
+//rest params work as expected
+const sayWord = (word = 'hello', ...otherstuff: string[]): string => {
+    console.log(otherstuff);
+    return word;
+};
+
+sayWord('Dev', 'Vin');
